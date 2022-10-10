@@ -11,5 +11,8 @@ namespace DatingApp.API.DTOs
         [Required]
         [MaxLength(256)]
         public string Password { get; set; }
+        [Required]
+        [MaxLength(256)]
+        public string Email { get; set; }
     }
 }

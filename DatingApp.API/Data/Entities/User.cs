@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace DatingApp.API.Database.Entities
+namespace DatingApp.API.Data.Entities
 {
     [Table("User")]
     public class User
